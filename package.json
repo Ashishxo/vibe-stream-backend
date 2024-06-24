@@ -1,0 +1,27 @@
+{
+  "name": "vibestream",
+  "version": "1.0.0",
+  "description": "Project inspired by youtube.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node src/index.js",
+    "dev":"nodemon src/index.js"
+  },
+  "keywords": [
+    "Mongoose",
+    "Backend",
+    "NodeJS",
+    "ExpressJs"
+  ],
+  "author": "Ashish",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.4.3"
+  }
+}
